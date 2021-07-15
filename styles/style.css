@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .container {
@@ -317,6 +318,9 @@ body {
 /*media queries*/
 
 @media (min-width: 576px) {
+  *{
+    overflow-x: unset;
+  }
   .hero__container {
     margin: auto;
     width: 80%;
