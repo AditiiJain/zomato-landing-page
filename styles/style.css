@@ -318,7 +318,7 @@ body {
 /*media queries*/
 
 @media (min-width: 576px) {
-  *{
+  * {
     overflow-x: unset;
   }
   .hero__container {
